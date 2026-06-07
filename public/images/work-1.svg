@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" role="img" aria-label="Finished gel manicure">
+  <defs>
+    <radialGradient id="bg" cx="0.35" cy="0.3" r="0.95">
+      <stop offset="0" stop-color="#fbf5ec"/>
+      <stop offset="1" stop-color="#d9a596"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <circle cx="940" cy="940" r="300" fill="#c58a7b" opacity="0.30"/>
+  <g transform="translate(600 640)" fill="#fbf5ec" stroke="#a87c4a" stroke-width="4">
+    <path transform="translate(-150 30)" d="M0 -130 c46 0 68 52 68 120 c0 96 -38 182 -68 214 c-30 -32 -68 -118 -68 -214 c0 -68 22 -120 68 -120 z"/>
+    <path transform="translate(0 -8)" d="M0 -138 c48 0 70 54 70 124 c0 100 -40 188 -70 220 c-30 -32 -70 -120 -70 -220 c0 -70 22 -124 70 -124 z"/>
+    <path transform="translate(150 30)" d="M0 -130 c46 0 68 52 68 120 c0 96 -38 182 -68 214 c-30 -32 -68 -118 -68 -214 c0 -68 22 -120 68 -120 z"/>
+  </g>
+  <rect width="1200" height="1200" filter="url(#grain)" opacity="0.05"/>
+</svg>

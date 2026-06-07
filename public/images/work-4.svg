@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" role="img" aria-label="Nail art detail">
+  <defs>
+    <radialGradient id="bg" cx="0.55" cy="0.45" r="0.95">
+      <stop offset="0" stop-color="#fbf5ec"/>
+      <stop offset="1" stop-color="#b9a596"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <g fill="none" stroke="#a87c4a" stroke-width="4" opacity="0.6">
+    <path d="M180 600 C 360 360 840 360 1020 600 C 840 840 360 840 180 600 Z"/>
+    <circle cx="600" cy="600" r="150"/>
+  </g>
+  <g fill="#c58a7b" opacity="0.85"><circle cx="600" cy="600" r="58"/></g>
+  <g fill="#9fa88e" opacity="0.8"><circle cx="380" cy="470" r="26"/><circle cx="840" cy="730" r="30"/></g>
+  <g fill="#a87c4a"><circle cx="820" cy="430" r="18"/><circle cx="400" cy="720" r="14"/></g>
+  <rect width="1200" height="1200" filter="url(#grain)" opacity="0.05"/>
+</svg>

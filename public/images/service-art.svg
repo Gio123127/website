@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" role="img" aria-label="Nail art and French sets">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="1500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f4e8d8"/>
+      <stop offset="1" stop-color="#e7d9c4"/>
+    </linearGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#bg)"/>
+  <circle cx="250" cy="290" r="320" fill="#a87c4a" opacity="0.16"/>
+  <circle cx="980" cy="1240" r="340" fill="#c58a7b" opacity="0.22"/>
+  <g transform="translate(600 760)">
+    <path d="M0 -190 c66 0 98 76 98 176 c0 144 -56 268 -98 312 c-42 -44 -98 -168 -98 -312 c0 -100 32 -176 98 -176 z" fill="#fbf5ec" stroke="#a87c4a" stroke-width="5"/>
+    <path d="M-96 -150 c40 -22 152 -22 192 0 c-6 -64 -52 -118 -96 -118 c-44 0 -90 54 -96 118 z" fill="#c58a7b" opacity="0.85"/>
+    <g fill="#a87c4a"><circle cx="-30" cy="40" r="14"/><circle cx="24" cy="96" r="11"/><circle cx="-6" cy="150" r="9"/></g>
+    <g fill="#9fa88e" opacity="0.8"><circle cx="34" cy="10" r="10"/><circle cx="-40" cy="110" r="8"/></g>
+  </g>
+  <g fill="#a87c4a" opacity="0.5"><path d="M250 980 l12 34 34 12 -34 12 -12 34 -12 -34 -34 -12 34 -12 z"/></g>
+  <rect width="1200" height="1500" filter="url(#grain)" opacity="0.05"/>
+</svg>
