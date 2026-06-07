@@ -1,26 +1,178 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ------------------------------------------------------------------ *
+ * Bliss Nails & Lashes — design tokens
+ * Palette committed in the brief: warm, grounded, anti-"salon-chain".
+ * Oat · Cacao · Rose Clay · Sage · Antique Brass · Warm Taupe
+ * (Single warm light theme — no dark mode in scope.)
+ * ------------------------------------------------------------------ */
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Raw brand palette */
+  --brand-oat: #f6eee5; /* page background */
+  --brand-cacao: #3b2a2f; /* text & headings */
+  --brand-rose-clay: #c58a7b; /* primary accent / buttons */
+  --brand-sage: #9fa88e; /* secondary accent / section breaks */
+  --brand-brass: #a87c4a; /* fine rules, icons, hovers */
+  --brand-taupe: #8b7a6e; /* muted text / borders */
+
+  /* Warm neutrals derived from the palette */
+  --brand-oat-lifted: #fbf5ec; /* cards & menus, a step above Oat */
+  --brand-sand: #ede3d6; /* muted surfaces */
+  --brand-sand-deep: #e2d5c4; /* borders / inputs */
+  --brand-brass-tint: #e7d9c4; /* subtle hover surfaces */
+
+  /* shadcn semantic tokens → mapped to the brand */
+  --background: var(--brand-oat);
+  --foreground: var(--brand-cacao);
+  --card: var(--brand-oat-lifted);
+  --card-foreground: var(--brand-cacao);
+  --popover: var(--brand-oat-lifted);
+  --popover-foreground: var(--brand-cacao);
+  --primary: var(--brand-rose-clay);
+  --primary-foreground: var(--brand-cacao); /* Cacao on Rose Clay ≈ 4.9:1 (AA) */
+  --secondary: var(--brand-sage);
+  --secondary-foreground: var(--brand-cacao);
+  --muted: var(--brand-sand);
+  --muted-foreground: var(--brand-taupe);
+  --accent: var(--brand-brass-tint);
+  --accent-foreground: var(--brand-cacao);
+  --destructive: #b4493a; /* warm brick, harmonised */
+  --border: var(--brand-sand-deep);
+  --input: var(--brand-sand-deep);
+  --ring: var(--brand-brass); /* Antique Brass focus ring */
+
+  /* Charts (unused here, kept on-brand & defined) */
+  --chart-1: var(--brand-rose-clay);
+  --chart-2: var(--brand-sage);
+  --chart-3: var(--brand-brass);
+  --chart-4: var(--brand-taupe);
+  --chart-5: var(--brand-cacao);
+
+  /* Sidebar (unused — mapped to surfaces so nothing resolves undefined) */
+  --sidebar: var(--brand-oat-lifted);
+  --sidebar-foreground: var(--brand-cacao);
+  --sidebar-primary: var(--brand-rose-clay);
+  --sidebar-primary-foreground: var(--brand-cacao);
+  --sidebar-accent: var(--brand-brass-tint);
+  --sidebar-accent-foreground: var(--brand-cacao);
+  --sidebar-border: var(--brand-sand-deep);
+  --sidebar-ring: var(--brand-brass);
+
+  --radius: 0.625rem; /* gentle, modern corners (brief gave no value) */
 }
 
 @theme inline {
+  /* Fonts — CSS vars are provided by next/font on <html> (see layout.tsx) */
+  --font-sans: var(--font-sans); /* Mulish — body */
+  --font-display: var(--font-display); /* Fraunces — headings */
+  --font-heading: var(--font-display); /* shadcn components read --font-heading */
+  --font-mono: ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  /* Brand palette as Tailwind colours → bg-oat, text-cacao, border-brass… */
+  --color-oat: var(--brand-oat);
+  --color-cacao: var(--brand-cacao);
+  --color-rose-clay: var(--brand-rose-clay);
+  --color-sage: var(--brand-sage);
+  --color-brass: var(--brand-brass);
+  --color-taupe: var(--brand-taupe);
+
+  /* shadcn token → colour mappings */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Radius scale (derived from --radius) */
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans;
+    scroll-behavior: smooth;
+    /* Offset the sticky header for in-page anchor links (per Next.js docs) */
+    scroll-padding-top: 5.5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "liga" 1, "calt" 1;
+    text-rendering: optimizeLegibility;
+  }
+  /* Fraunces drives every heading by default */
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display;
+    letter-spacing: -0.01em;
+  }
+  ::selection {
+    background: var(--brand-rose-clay);
+    color: var(--brand-oat);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  /* Editorial small-caps brass label used across the site */
+  .eyebrow {
+    font-family: var(--font-sans);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--brand-brass);
+  }
+  /* Antique-brass hairline for fine section breaks */
+  .rule-brass {
+    height: 1px;
+    width: 100%;
+    background: color-mix(in oklch, var(--brand-brass) 45%, transparent);
+  }
 }
