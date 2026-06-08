@@ -1,0 +1,111 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e7] [cursor=pointer]:
+    - img [ref=e8]
+  - banner [ref=e11]:
+    - generic [ref=e12]:
+      - link "Bliss Nails & Lashes Studio — home" [ref=e13] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e14]: Bliss
+        - generic [ref=e15]: Nails & Lashes
+      - navigation "Main" [ref=e16]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "Services" [ref=e20] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=e21]:
+            - link "Pricing" [ref=e22] [cursor=pointer]:
+              - /url: /pricing
+          - listitem [ref=e23]:
+            - link "Gallery" [ref=e24] [cursor=pointer]:
+              - /url: /gallery
+          - listitem [ref=e25]:
+            - link "About" [ref=e26] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e27]:
+            - link "Contact" [ref=e28] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e29]:
+        - link "4.9★ · 90+ Google reviews" [ref=e30] [cursor=pointer]:
+          - /url: https://www.google.com/maps/search/?api=1&query=Bliss+Nails+and+Lashes+Studio+Hastings
+          - img [ref=e31]
+          - generic [ref=e33]: 4.9★ · 90+ Google reviews
+        - link "Book Now" [ref=e34] [cursor=pointer]:
+          - /url: /booking
+          - text: Book Now
+          - img
+  - main [ref=e35]:
+    - generic [ref=e37]:
+      - heading "404" [level=1] [ref=e38]
+      - heading "This page could not be found." [level=2] [ref=e40]
+  - contentinfo [ref=e41]:
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e46]: Bliss
+            - generic [ref=e47]: Nails & Lashes
+          - paragraph [ref=e48]: Beautiful nails & lashes — never rushed. One artist, start to finish — in a calm, private Hastings studio.
+          - link "4.9★ · 90+ Google reviews" [ref=e49] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Bliss+Nails+and+Lashes+Studio+Hastings
+            - img [ref=e50]
+            - text: 4.9★ · 90+ Google reviews
+        - navigation "Footer navigation" [ref=e52]:
+          - paragraph [ref=e53]: Explore
+          - list [ref=e54]:
+            - listitem [ref=e55]:
+              - link "Home" [ref=e56] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e57]:
+              - link "Services" [ref=e58] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e59]:
+              - link "Pricing" [ref=e60] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e61]:
+              - link "Gallery" [ref=e62] [cursor=pointer]:
+                - /url: /gallery
+            - listitem [ref=e63]:
+              - link "About" [ref=e64] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e65]:
+              - link "Testimonials" [ref=e66] [cursor=pointer]:
+                - /url: /testimonials
+            - listitem [ref=e67]:
+              - link "FAQ" [ref=e68] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=e69]:
+              - link "Contact" [ref=e70] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e71]:
+          - paragraph [ref=e72]: Visit & book
+          - list [ref=e73]:
+            - listitem [ref=e74]:
+              - img [ref=e75]
+              - generic [ref=e78]:
+                - text: Camberley, Hastings
+                - generic [ref=e79]: Private home studio — the exact address is shared on your booking confirmation.
+            - listitem [ref=e80]:
+              - img [ref=e81]
+              - generic [ref=e84]: By appointment · 7 days · 9am – 9pm
+            - listitem [ref=e85]:
+              - img [ref=e86]
+              - link "+64 20 4048 1859" [ref=e88] [cursor=pointer]:
+                - /url: tel:+642040481859
+          - paragraph [ref=e89]: "Areas served: Hastings · Havelock North · Napier · Flaxmere · Hawke's Bay"
+        - generic [ref=e90]:
+          - paragraph [ref=e91]: Connect
+          - generic [ref=e92]:
+            - link "Bliss Nails & Lashes on Facebook" [ref=e93] [cursor=pointer]:
+              - /url: https://www.facebook.com/bliss.nails.and.lashes.studio
+              - img [ref=e94]
+            - link "Bliss Nails & Lashes on Instagram" [ref=e96] [cursor=pointer]:
+              - /url: https://www.instagram.com/bliss_nails_and_lashes_studio
+              - img [ref=e97]
+          - link "Book Now" [ref=e102] [cursor=pointer]:
+            - /url: /booking
+            - text: Book Now
+            - img
+      - generic [ref=e104]:
+        - paragraph [ref=e105]: © 2026 Bliss Nails & Lashes Studio. Camberley, Hastings.
+        - paragraph [ref=e106]: Gel · Acrylic · BIAB · Lash extensions
+  - alert [ref=e107]

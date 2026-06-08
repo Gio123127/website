@@ -3,30 +3,25 @@ import Link from "next/link";
 import {
   ArrowRight,
   CircleCheck,
-  Clock,
   HandHeart,
-  MapPin,
   Quote,
   ShieldCheck,
   Star,
 } from "lucide-react";
 
 import { siteConfig } from "@/lib/site";
-import { BookCta, CallButton } from "@/components/book-cta";
+import { BookCta } from "@/components/book-cta";
+import { ClosingCta } from "@/components/closing-cta";
 
 /* ------------------------------------------------------------------ *
- * Home page — Phase 2 content.
+ * Home page.
  *
- * IMAGERY: every <Image> below points at an on-brand SVG placeholder in
- * /public/images. They are sized/ratio-locked exactly as the real photos
- * will be, so swapping in Gulshan's own work is a one-line `src` change per
- * slot (drop a .jpg/.webp into /public/images and update the path). Real
- * photos are an outstanding client input (permission/access to her IG/FB
- * library — see CLAUDE.md brief).
+ * IMAGERY: real client photos in /public/photos (hero = the upscaled set). The
+ * "Meet Gulshan" portrait is still a placeholder (/images/portrait.svg) until a
+ * real portrait is supplied.
  *
- * COPY: written to the brief's messaging angle (warm, personal, honest —
- * never the "luxury sanctuary" script). First-person bio + testimonial
- * wording are drafts for owner sign-off (see // TODO client-input notes).
+ * COPY: the brief's warm, personal, honest angle. The testimonial below is a
+ * labelled "representative" quote; the full social-proof page lives at /reviews.
  * ------------------------------------------------------------------ */
 
 const VALUES = [
@@ -49,27 +44,27 @@ const VALUES = [
 
 const SERVICES = [
   {
-    img: "/images/service-nails.svg",
+    img: "/photos/Photo26.jpg",
     title: "Gel, Acrylic & BIAB",
     body: "Long-wearing gel, acrylic and BIAB sets — shaped, coloured and finished exactly how you like.",
   },
   {
-    img: "/images/service-art.svg",
+    img: "/photos/Photo35.jpg",
     title: "Nail Art & French",
     body: "Custom nail art, French tips and seasonal designs — as subtle or as bold as you fancy.",
   },
   {
-    img: "/images/service-lashes.svg",
+    img: "/photos/Photo2.jpg",
     title: "Lash Extensions",
     body: "Classic, hybrid and Russian-volume lashes, tailored to suit your eyes and your look.",
   },
 ];
 
 const WORK = [
-  { img: "/images/work-1.svg", alt: "Glossy gel manicure in a warm nude" },
-  { img: "/images/work-2.svg", alt: "Full volume lash set" },
-  { img: "/images/work-3.svg", alt: "Classic French tips" },
-  { img: "/images/work-4.svg", alt: "Detailed hand-painted nail art" },
+  { img: "/photos/Photo16.jpg", alt: "Stiletto nail art set" },
+  { img: "/photos/Photo28.jpg", alt: "Baby pink almond set" },
+  { img: "/photos/Photo21.jpg", alt: "French ombré set" },
+  { img: "/photos/Photo30.jpg", alt: "Hot pink set" },
 ];
 
 const STATS = [
@@ -95,7 +90,7 @@ export default function HomePage() {
       {/* ── 1 · Hero ──────────────────────────────────────────────── */}
       <section className="relative min-h-[92svh] w-full overflow-hidden">
         <Image
-          src="/images/hero.svg"
+          src="/photos/hero-upscaled.jpg"
           alt="Freshly finished nails at the Bliss home studio"
           fill
           loading="eager"
@@ -379,59 +374,17 @@ export default function HomePage() {
             Representative of recent Google reviews
           </p>
           <Link
-            href={siteConfig.reviews.url}
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/reviews"
             className="group inline-flex items-center gap-1.5 text-sm font-semibold text-brass underline-offset-4 hover:underline"
           >
-            Read all {siteConfig.reviews.count}+ reviews on Google
+            Read all {siteConfig.reviews.count}+ reviews
             <ArrowRight className="size-4 transition-transform group-hover:translate-x-0.5" />
           </Link>
         </div>
       </section>
 
       {/* ── 6 · Closing CTA ──────────────────────────────────────── */}
-      <section className="mx-auto max-w-6xl px-6 pb-24">
-        <div className="relative overflow-hidden rounded-[var(--radius-3xl)] bg-cacao px-6 py-16 text-center text-oat sm:px-12 sm:py-20">
-          <div
-            aria-hidden
-            className="pointer-events-none absolute -right-16 -top-16 size-64 rounded-full bg-rose-clay/20 blur-2xl"
-          />
-          <div
-            aria-hidden
-            className="pointer-events-none absolute -bottom-20 -left-12 size-64 rounded-full bg-sage/15 blur-2xl"
-          />
-          <div className="relative">
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--brand-brass-tint)]">
-              Booking
-            </p>
-            <h2 className="mt-4 text-balance font-display text-3xl text-oat sm:text-4xl md:text-5xl">
-              Ready when you are.
-            </h2>
-            <p className="mx-auto mt-5 max-w-xl text-pretty leading-relaxed text-oat/80">
-              Tell me what you&apos;d like and your preferred time — I&apos;ll
-              confirm your spot and send the studio address. {siteConfig.bookingNote.split(".")[0]}.
-            </p>
-            <div className="mt-9 flex flex-wrap items-center justify-center gap-3">
-              <BookCta className="h-12 px-7 text-base" />
-              <CallButton
-                className="h-12 px-6 text-base"
-                label={`Call ${siteConfig.contact.phone.display}`}
-              />
-            </div>
-            <p className="mt-7 inline-flex flex-wrap items-center justify-center gap-x-5 gap-y-1.5 text-sm text-oat/60">
-              <span className="inline-flex items-center gap-1.5">
-                <MapPin className="size-4 text-brass" />
-                {siteConfig.location.suburb}
-              </span>
-              <span className="inline-flex items-center gap-1.5">
-                <Clock className="size-4 text-brass" />
-                {siteConfig.hours.summary} · {siteConfig.hours.detail}
-              </span>
-            </p>
-          </div>
-        </div>
-      </section>
+      <ClosingCta />
     </>
   );
 }

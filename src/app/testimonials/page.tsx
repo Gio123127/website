@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import { PagePlaceholder } from "@/components/page-placeholder";
 
-export const metadata: Metadata = { title: "Testimonials" };
+export const metadata: Metadata = {
+  title: "Testimonials",
+  description:
+    "Real client reviews for Bliss Nails & Lashes Studio — 4.9★ across roughly 90 Google reviews in Camberley, Hastings.",
+};
 
 export default function TestimonialsPage() {
   return (

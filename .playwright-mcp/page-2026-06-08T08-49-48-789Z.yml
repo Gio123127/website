@@ -1,0 +1,157 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Bliss Nails & Lashes Studio — home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: Bliss
+      - button "Open menu" [ref=e7]:
+        - img
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - link "Back to gallery" [ref=e10] [cursor=pointer]:
+        - /url: /gallery
+        - img [ref=e11]
+        - text: Back to gallery
+      - generic [ref=e13]:
+        - img "Neon almond set" [ref=e15]
+        - generic [ref=e16]:
+          - generic [ref=e17]: Nail art
+          - heading "Neon almond set" [level=1] [ref=e18]
+          - paragraph [ref=e19]: Custom nail art from the Bliss studio. Use this as a starting point and we'll make it your own — as subtle or as bold as you like.
+          - generic [ref=e20]:
+            - link "Book Now" [ref=e21] [cursor=pointer]:
+              - /url: /booking
+              - text: Book Now
+              - img
+            - link "Browse the gallery" [ref=e22] [cursor=pointer]:
+              - /url: /gallery
+              - text: Browse the gallery
+              - img [ref=e23]
+    - region "More nail art" [ref=e25]:
+      - generic [ref=e26]:
+        - heading "More nail art" [level=2] [ref=e27]
+        - generic [ref=e28]:
+          - link "Mixed brights set Nail art Mixed brights set" [ref=e29] [cursor=pointer]:
+            - /url: /gallery/mixed-brights-11
+            - generic [ref=e30]:
+              - img "Mixed brights set" [ref=e31]
+              - generic [ref=e32]: Nail art
+            - heading "Mixed brights set" [level=3] [ref=e34]
+          - link "Smoky statement set Nail art Smoky statement set" [ref=e35] [cursor=pointer]:
+            - /url: /gallery/smoky-statement-15
+            - generic [ref=e36]:
+              - img "Smoky statement set" [ref=e37]
+              - generic [ref=e38]: Nail art
+            - heading "Smoky statement set" [level=3] [ref=e40]
+          - link "Stiletto art set Nail art Stiletto art set" [ref=e41] [cursor=pointer]:
+            - /url: /gallery/stiletto-art-16
+            - generic [ref=e42]:
+              - img "Stiletto art set" [ref=e43]
+              - generic [ref=e44]: Nail art
+            - heading "Stiletto art set" [level=3] [ref=e46]
+          - link "White design set Nail art White design set" [ref=e47] [cursor=pointer]:
+            - /url: /gallery/white-design-32
+            - generic [ref=e48]:
+              - img "White design set" [ref=e49]
+              - generic [ref=e50]: Nail art
+            - heading "White design set" [level=3] [ref=e52]
+    - generic [ref=e55]:
+      - paragraph [ref=e56]: Booking
+      - heading "Ready when you are." [level=2] [ref=e57]
+      - paragraph [ref=e58]: Tell me what you'd like and your preferred time — I'll confirm your spot and send the studio address. No online booking system yet — call or message to book.
+      - generic [ref=e59]:
+        - link "Book Now" [ref=e60] [cursor=pointer]:
+          - /url: /booking
+          - text: Book Now
+          - img
+        - link "Call +64 20 4048 1859" [ref=e61] [cursor=pointer]:
+          - /url: tel:+642040481859
+          - img
+          - text: Call +64 20 4048 1859
+      - paragraph [ref=e62]:
+        - generic [ref=e63]:
+          - img [ref=e64]
+          - text: Camberley, Hastings
+        - generic [ref=e67]:
+          - img [ref=e68]
+          - text: By appointment · 7 days · 9am – 9pm
+  - contentinfo [ref=e71]:
+    - generic [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - generic [ref=e76]: Bliss
+            - generic [ref=e77]: Nails & Lashes
+          - paragraph [ref=e78]: Beautiful nails & lashes — never rushed. One artist, start to finish — in a calm, private Hastings studio.
+          - link "4.9★ · 90+ Google reviews" [ref=e79] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Bliss+Nails+and+Lashes+Studio+Hastings
+            - img [ref=e80]
+            - text: 4.9★ · 90+ Google reviews
+        - navigation "Footer navigation" [ref=e82]:
+          - paragraph [ref=e83]: Explore
+          - list [ref=e84]:
+            - listitem [ref=e85]:
+              - link "Home" [ref=e86] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e87]:
+              - link "Services" [ref=e88] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e89]:
+              - link "Pricing" [ref=e90] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e91]:
+              - link "Gallery" [ref=e92] [cursor=pointer]:
+                - /url: /gallery
+            - listitem [ref=e93]:
+              - link "About" [ref=e94] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e95]:
+              - link "Testimonials" [ref=e96] [cursor=pointer]:
+                - /url: /testimonials
+            - listitem [ref=e97]:
+              - link "FAQ" [ref=e98] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=e99]:
+              - link "Contact" [ref=e100] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e101]:
+          - paragraph [ref=e102]: Visit & book
+          - list [ref=e103]:
+            - listitem [ref=e104]:
+              - img [ref=e105]
+              - generic [ref=e108]:
+                - text: Camberley, Hastings
+                - generic [ref=e109]: Private home studio — the exact address is shared on your booking confirmation.
+            - listitem [ref=e110]:
+              - img [ref=e111]
+              - generic [ref=e114]: By appointment · 7 days · 9am – 9pm
+            - listitem [ref=e115]:
+              - img [ref=e116]
+              - link "+64 20 4048 1859" [ref=e118] [cursor=pointer]:
+                - /url: tel:+642040481859
+          - paragraph [ref=e119]: "Areas served: Hastings · Havelock North · Napier · Flaxmere · Hawke's Bay"
+        - generic [ref=e120]:
+          - paragraph [ref=e121]: Connect
+          - generic [ref=e122]:
+            - link "Bliss Nails & Lashes on Facebook" [ref=e123] [cursor=pointer]:
+              - /url: https://www.facebook.com/bliss.nails.and.lashes.studio
+              - img [ref=e124]
+            - link "Bliss Nails & Lashes on Instagram" [ref=e126] [cursor=pointer]:
+              - /url: https://www.instagram.com/bliss_nails_and_lashes_studio
+              - img [ref=e127]
+          - link "Book Now" [ref=e132] [cursor=pointer]:
+            - /url: /booking
+            - text: Book Now
+            - img
+      - generic [ref=e134]:
+        - paragraph [ref=e135]: © 2026 Bliss Nails & Lashes Studio. Camberley, Hastings.
+        - paragraph [ref=e136]: Gel · Acrylic · BIAB · Lash extensions
+  - generic [ref=e138]:
+    - link "Call" [ref=e139] [cursor=pointer]:
+      - /url: tel:+642040481859
+      - img
+      - text: Call
+    - link "Book Now" [ref=e140] [cursor=pointer]:
+      - /url: /booking
+  - button "Open Next.js Dev Tools" [ref=e146] [cursor=pointer]:
+    - img [ref=e147]

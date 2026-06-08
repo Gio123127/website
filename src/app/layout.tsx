@@ -22,6 +22,9 @@ const mulish = Mulish({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+  ),
   title: {
     default: `${siteConfig.name} — ${siteConfig.location.suburb}`,
     template: `%s · ${siteConfig.shortName}`,
@@ -39,8 +42,23 @@ export const metadata: Metadata = {
   openGraph: {
     title: siteConfig.name,
     description: siteConfig.description,
+    siteName: siteConfig.name,
     locale: "en_NZ",
     type: "website",
+    images: [
+      {
+        url: "/og.jpg",
+        width: 1200,
+        height: 630,
+        alt: `${siteConfig.name} — ${siteConfig.location.suburb}`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.name,
+    description: siteConfig.description,
+    images: ["/og.jpg"],
   },
   robots: { index: true, follow: true },
 };
@@ -61,8 +79,16 @@ export default function RootLayout({
       className={`${mulish.variable} ${fraunces.variable}`}
     >
       <body className="flex min-h-svh flex-col pb-20 lg:pb-0">
+        <a
+          href="#main-content"
+          className="sr-only rounded-full focus-visible:not-sr-only focus-visible:fixed focus-visible:left-4 focus-visible:top-4 focus-visible:z-[100] focus-visible:bg-cacao focus-visible:px-4 focus-visible:py-2 focus-visible:text-sm focus-visible:font-semibold focus-visible:text-oat"
+        >
+          Skip to content
+        </a>
         <SiteHeader />
-        <main className="flex-1">{children}</main>
+        <main id="main-content" tabIndex={-1} className="flex-1 outline-none">
+          {children}
+        </main>
         <SiteFooter />
         <MobileCtaBar />
       </body>

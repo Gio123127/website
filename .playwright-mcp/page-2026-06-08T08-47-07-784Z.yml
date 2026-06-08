@@ -1,0 +1,156 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Bliss Nails & Lashes Studio — home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: Bliss
+      - button "Open menu" [ref=e7]:
+        - img
+  - main [ref=e8]:
+    - generic [ref=e10]:
+      - paragraph [ref=e11]: Pricing
+      - heading "Honest prices, shown openly" [level=1] [ref=e12]
+      - paragraph [ref=e13]: No PDFs to download and no booking funnel to dig through — here's what a set costs. Message any time to check availability or ask about a look you've seen.
+      - generic [ref=e14]:
+        - link "Book Now" [ref=e15] [cursor=pointer]:
+          - /url: /booking
+          - text: Book Now
+          - img
+        - link "See the gallery" [ref=e16] [cursor=pointer]:
+          - /url: /gallery
+          - text: See the gallery
+          - img [ref=e17]
+    - region "Manicure services" [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - heading "Manicure services" [level=2] [ref=e23]
+            - generic [ref=e24]: NZD
+          - generic [ref=e25]:
+            - generic [ref=e26]:
+              - term [ref=e27]: Gel polish
+              - definition [ref=e28]: $40
+            - generic [ref=e29]:
+              - term [ref=e30]: Natural nail
+              - definition [ref=e31]: $55
+            - generic [ref=e32]:
+              - term [ref=e33]: Extensions
+              - definition [ref=e34]: $65
+            - generic [ref=e35]:
+              - term [ref=e36]: French tips
+              - definition [ref=e37]: $80
+            - generic [ref=e38]:
+              - term [ref=e39]: Ombré
+              - definition [ref=e40]: $80
+            - generic [ref=e41]:
+              - term [ref=e42]: Gel X
+              - definition [ref=e43]: $70
+            - generic [ref=e44]:
+              - term [ref=e45]: Infills
+              - definition [ref=e46]: $55
+          - paragraph [ref=e47]: Any art is extra. Prices include SNS, hard gel or acrylic.
+          - paragraph [ref=e48]: Lash extensions and detailed nail art are priced on consultation — send a message with the look you're after and I'll give you a quick quote.
+        - generic [ref=e49]:
+          - img "A glossy nude and gold-glitter gel set by Bliss" [ref=e51]
+          - paragraph [ref=e52]: Gel, acrylic, BIAB & more — done properly, priced fairly.
+    - generic [ref=e55]:
+      - paragraph [ref=e56]: Booking
+      - heading "Book your set" [level=2] [ref=e57]
+      - paragraph [ref=e58]: Message with the set you'd like and a time that suits — I'll confirm and send the studio address. Easy as.
+      - generic [ref=e59]:
+        - link "Book Now" [ref=e60] [cursor=pointer]:
+          - /url: /booking
+          - text: Book Now
+          - img
+        - link "Call +64 20 4048 1859" [ref=e61] [cursor=pointer]:
+          - /url: tel:+642040481859
+          - img
+          - text: Call +64 20 4048 1859
+      - paragraph [ref=e62]:
+        - generic [ref=e63]:
+          - img [ref=e64]
+          - text: Camberley, Hastings
+        - generic [ref=e67]:
+          - img [ref=e68]
+          - text: By appointment · 7 days · 9am – 9pm
+  - contentinfo [ref=e71]:
+    - generic [ref=e72]:
+      - generic [ref=e73]:
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - generic [ref=e76]: Bliss
+            - generic [ref=e77]: Nails & Lashes
+          - paragraph [ref=e78]: Beautiful nails & lashes — never rushed. One artist, start to finish — in a calm, private Hastings studio.
+          - link "4.9★ · 90+ Google reviews" [ref=e79] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Bliss+Nails+and+Lashes+Studio+Hastings
+            - img [ref=e80]
+            - text: 4.9★ · 90+ Google reviews
+        - navigation "Footer navigation" [ref=e82]:
+          - paragraph [ref=e83]: Explore
+          - list [ref=e84]:
+            - listitem [ref=e85]:
+              - link "Home" [ref=e86] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e87]:
+              - link "Services" [ref=e88] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e89]:
+              - link "Pricing" [ref=e90] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e91]:
+              - link "Gallery" [ref=e92] [cursor=pointer]:
+                - /url: /gallery
+            - listitem [ref=e93]:
+              - link "About" [ref=e94] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e95]:
+              - link "Testimonials" [ref=e96] [cursor=pointer]:
+                - /url: /testimonials
+            - listitem [ref=e97]:
+              - link "FAQ" [ref=e98] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=e99]:
+              - link "Contact" [ref=e100] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e101]:
+          - paragraph [ref=e102]: Visit & book
+          - list [ref=e103]:
+            - listitem [ref=e104]:
+              - img [ref=e105]
+              - generic [ref=e108]:
+                - text: Camberley, Hastings
+                - generic [ref=e109]: Private home studio — the exact address is shared on your booking confirmation.
+            - listitem [ref=e110]:
+              - img [ref=e111]
+              - generic [ref=e114]: By appointment · 7 days · 9am – 9pm
+            - listitem [ref=e115]:
+              - img [ref=e116]
+              - link "+64 20 4048 1859" [ref=e118] [cursor=pointer]:
+                - /url: tel:+642040481859
+          - paragraph [ref=e119]: "Areas served: Hastings · Havelock North · Napier · Flaxmere · Hawke's Bay"
+        - generic [ref=e120]:
+          - paragraph [ref=e121]: Connect
+          - generic [ref=e122]:
+            - link "Bliss Nails & Lashes on Facebook" [ref=e123] [cursor=pointer]:
+              - /url: https://www.facebook.com/bliss.nails.and.lashes.studio
+              - img [ref=e124]
+            - link "Bliss Nails & Lashes on Instagram" [ref=e126] [cursor=pointer]:
+              - /url: https://www.instagram.com/bliss_nails_and_lashes_studio
+              - img [ref=e127]
+          - link "Book Now" [ref=e132] [cursor=pointer]:
+            - /url: /booking
+            - text: Book Now
+            - img
+      - generic [ref=e134]:
+        - paragraph [ref=e135]: © 2026 Bliss Nails & Lashes Studio. Camberley, Hastings.
+        - paragraph [ref=e136]: Gel · Acrylic · BIAB · Lash extensions
+  - generic [ref=e138]:
+    - link "Call" [ref=e139] [cursor=pointer]:
+      - /url: tel:+642040481859
+      - img
+      - text: Call
+    - link "Book Now" [ref=e140] [cursor=pointer]:
+      - /url: /booking
+  - button "Open Next.js Dev Tools" [ref=e146] [cursor=pointer]:
+    - img [ref=e147]
+  - alert [ref=e150]

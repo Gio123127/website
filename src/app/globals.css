@@ -18,7 +18,8 @@
   --brand-rose-clay: #c58a7b; /* primary accent / buttons */
   --brand-sage: #9fa88e; /* secondary accent / section breaks */
   --brand-brass: #a87c4a; /* fine rules, icons, hovers */
-  --brand-taupe: #8b7a6e; /* muted text / borders */
+  --brand-brass-deep: #8a6630; /* deeper brass for small text labels on Oat (AA ~4.6:1) */
+  --brand-taupe: #6f6157; /* muted text — deepened from the brief's #8b7a6e for AA contrast (~5:1 on Oat) */
 
   /* Warm neutrals derived from the palette */
   --brand-oat-lifted: #fbf5ec; /* cards & menus, a step above Oat */
@@ -152,6 +153,12 @@
     background: var(--brand-rose-clay);
     color: var(--brand-oat);
   }
+  /* Visible, on-brand keyboard focus for links (buttons/inputs use ring utils) */
+  a:focus-visible {
+    outline: 2px solid var(--brand-brass);
+    outline-offset: 2px;
+    border-radius: 0.2rem;
+  }
   @media (prefers-reduced-motion: reduce) {
     html {
       scroll-behavior: auto;
@@ -167,7 +174,7 @@
     letter-spacing: 0.2em;
     font-size: 0.72rem;
     font-weight: 600;
-    color: var(--brand-brass);
+    color: var(--brand-brass-deep);
   }
   /* Antique-brass hairline for fine section breaks */
   .rule-brass {

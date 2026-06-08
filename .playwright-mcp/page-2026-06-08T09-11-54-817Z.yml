@@ -1,0 +1,171 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Bliss Nails & Lashes Studio — home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: Bliss
+      - button "Open menu" [ref=e7]:
+        - img
+  - main [ref=e8]:
+    - generic [ref=e10]:
+      - paragraph [ref=e11]: Contact
+      - heading "Let's get you booked in" [level=1] [ref=e12]
+      - paragraph [ref=e13]: The quickest way to reach me is a text or call. Prefer to write it down? Send a message below and I'll get back to you.
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - heading "Send a message" [level=2] [ref=e17]
+        - paragraph [ref=e18]: A few details and I'll be in touch to arrange a time.
+        - generic [ref=e20]:
+          - generic [ref=e21]:
+            - generic [ref=e22]: Name
+            - textbox "Name" [ref=e23]:
+              - /placeholder: Your name
+          - generic [ref=e24]:
+            - generic [ref=e25]:
+              - generic [ref=e26]: Email
+              - textbox "Email" [ref=e27]:
+                - /placeholder: you@email.com
+            - generic [ref=e28]:
+              - generic [ref=e29]: Phone
+              - textbox "Phone" [ref=e30]:
+                - /placeholder: 021 234 5678
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - generic [ref=e33]: What are you after?
+              - combobox "What are you after?" [ref=e34]:
+                - generic: Choose a service
+                - img [ref=e35]
+              - combobox [ref=e37]
+            - generic [ref=e38]:
+              - generic [ref=e39]: Reply by
+              - combobox "Reply by" [ref=e40]:
+                - generic: Text or call
+                - img [ref=e41]
+              - combobox [ref=e43]
+          - generic [ref=e44]:
+            - generic [ref=e45]: Message
+            - textbox "Message" [ref=e46]:
+              - /placeholder: Tell me what you'd like, any inspo, and a few times that suit you.
+            - paragraph [ref=e47]: No online booking yet — I'll reply to arrange a time.
+          - button "Send message" [ref=e48]:
+            - img
+            - text: Send message
+          - paragraph [ref=e49]: Prefer not to use a form? Text or call +64 20 4048 1859.
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - heading "Prefer to talk?" [level=2] [ref=e52]
+          - paragraph [ref=e53]: Texting or calling is the fastest way to reach me and book.
+          - paragraph [ref=e54]: +64 20 4048 1859
+          - generic [ref=e55]:
+            - link "Call" [ref=e56] [cursor=pointer]:
+              - /url: tel:+642040481859
+              - img
+              - text: Call
+            - link "Text" [ref=e57] [cursor=pointer]:
+              - /url: sms:+642040481859
+              - img
+              - text: Text
+          - generic [ref=e58]:
+            - paragraph [ref=e59]: Find me on
+            - generic [ref=e60]:
+              - link "Bliss Nails & Lashes on Facebook" [ref=e61] [cursor=pointer]:
+                - /url: https://www.facebook.com/bliss.nails.and.lashes.studio
+                - img [ref=e62]
+              - link "Bliss Nails & Lashes on Instagram" [ref=e64] [cursor=pointer]:
+                - /url: https://www.instagram.com/bliss_nails_and_lashes_studio
+                - img [ref=e65]
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - img [ref=e72]
+            - generic [ref=e75]:
+              - text: By appointment
+              - generic [ref=e76]: 7 days · 9am – 9pm
+          - listitem [ref=e77]:
+            - img [ref=e78]
+            - generic [ref=e81]:
+              - text: Areas served
+              - generic [ref=e82]: Hastings · Havelock North · Napier · Flaxmere · Hawke's Bay
+        - generic [ref=e90]:
+          - img [ref=e92]
+          - paragraph [ref=e95]: Camberley, Hastings
+          - paragraph [ref=e96]: A private home studio — I'll share the exact address once your appointment's confirmed.
+  - contentinfo [ref=e97]:
+    - generic [ref=e98]:
+      - generic [ref=e99]:
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - generic [ref=e102]: Bliss
+            - generic [ref=e103]: Nails & Lashes
+          - paragraph [ref=e104]: Beautiful nails & lashes — never rushed. One artist, start to finish — in a calm, private Hastings studio.
+          - link "4.9★ · 90+ Google reviews" [ref=e105] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Bliss+Nails+and+Lashes+Studio+Hastings
+            - img [ref=e106]
+            - text: 4.9★ · 90+ Google reviews
+        - navigation "Footer navigation" [ref=e108]:
+          - paragraph [ref=e109]: Explore
+          - list [ref=e110]:
+            - listitem [ref=e111]:
+              - link "Home" [ref=e112] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e113]:
+              - link "Services" [ref=e114] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e115]:
+              - link "Pricing" [ref=e116] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e117]:
+              - link "Gallery" [ref=e118] [cursor=pointer]:
+                - /url: /gallery
+            - listitem [ref=e119]:
+              - link "About" [ref=e120] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e121]:
+              - link "Testimonials" [ref=e122] [cursor=pointer]:
+                - /url: /testimonials
+            - listitem [ref=e123]:
+              - link "FAQ" [ref=e124] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=e125]:
+              - link "Contact" [ref=e126] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e127]:
+          - paragraph [ref=e128]: Visit & book
+          - list [ref=e129]:
+            - listitem [ref=e130]:
+              - img [ref=e131]
+              - generic [ref=e134]:
+                - text: Camberley, Hastings
+                - generic [ref=e135]: Private home studio — the exact address is shared on your booking confirmation.
+            - listitem [ref=e136]:
+              - img [ref=e137]
+              - generic [ref=e140]: By appointment · 7 days · 9am – 9pm
+            - listitem [ref=e141]:
+              - img [ref=e142]
+              - link "+64 20 4048 1859" [ref=e144] [cursor=pointer]:
+                - /url: tel:+642040481859
+          - paragraph [ref=e145]: "Areas served: Hastings · Havelock North · Napier · Flaxmere · Hawke's Bay"
+        - generic [ref=e146]:
+          - paragraph [ref=e147]: Connect
+          - generic [ref=e148]:
+            - link "Bliss Nails & Lashes on Facebook" [ref=e149] [cursor=pointer]:
+              - /url: https://www.facebook.com/bliss.nails.and.lashes.studio
+              - img [ref=e150]
+            - link "Bliss Nails & Lashes on Instagram" [ref=e152] [cursor=pointer]:
+              - /url: https://www.instagram.com/bliss_nails_and_lashes_studio
+              - img [ref=e153]
+          - link "Book Now" [ref=e158] [cursor=pointer]:
+            - /url: /booking
+            - text: Book Now
+            - img
+      - generic [ref=e160]:
+        - paragraph [ref=e161]: © 2026 Bliss Nails & Lashes Studio. Camberley, Hastings.
+        - paragraph [ref=e162]: Gel · Acrylic · BIAB · Lash extensions
+  - generic [ref=e164]:
+    - link "Call" [ref=e165] [cursor=pointer]:
+      - /url: tel:+642040481859
+      - img
+      - text: Call
+    - link "Book Now" [ref=e166] [cursor=pointer]:
+      - /url: /booking
+  - button "Open Next.js Dev Tools" [ref=e172] [cursor=pointer]:
+    - img [ref=e173]

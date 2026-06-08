@@ -19,6 +19,10 @@ export const siteConfig = {
   description:
     "A private home studio in Camberley, Hastings for gel, acrylic and BIAB nails plus classic, hybrid and Russian-volume lash extensions — calm, unhurried, one artist start to finish. Rated 4.9★ across ~90 Google reviews.",
 
+  // TODO (client input): confirm founding year — the brief notes the Facebook
+  // page was created ~mid-2024, so the studio likely opened in 2024.
+  founded: "2024",
+
   reviews: {
     rating: "4.9",
     count: "90",
@@ -48,41 +52,46 @@ export const siteConfig = {
     phone: {
       display: phoneDisplay,
       href: `tel:${phoneDisplay.replace(/[^+\d]/g, "")}`,
+      // Same number for texting — the studio takes bookings by call or text.
+      sms: `sms:${phoneDisplay.replace(/[^+\d]/g, "")}`,
     },
-    // TODO (client input): display email + enquiry-form destination address.
-    email: null as string | null,
+    // No email contact: the client cannot be reached by email. Bookings are made
+    // by phone/text or Facebook/Instagram DM (see /contact).
   },
 
-  /** The one action we want every visitor to take. v1 = call/message to book. */
-  cta: { label: "Book Now", href: "/booking" },
+  /** The one action we want every visitor to take. Booking is by call/text or
+   *  social DM, so every "Book Now" CTA points at the Contact page. */
+  cta: { label: "Book Now", href: "/contact" },
   bookingNote:
     "No online booking system yet — call or message to book. A booking-platform link (Fresha/Timely) can replace this later.",
 
   social: {
     facebook: "https://www.facebook.com/bliss.nails.and.lashes.studio",
-    // TODO (client input): confirm the exact Instagram @handle before linking
-    // (the brief says an account exists but the handle is unverified — don't guess).
-    instagram: null as string | null,
+    // Handle read from the owner's own price-list / business-card image
+    // (@bliss_nails_and_lashes_studio). TODO (client input): confirm it's correct.
+    instagram: "https://www.instagram.com/bliss_nails_and_lashes_studio",
   },
 
   nav: {
-    // Shown in the desktop header — kept to the essentials for legibility.
+    // Shown in the desktop header.
     primary: [
+      { label: "Home", href: "/" },
       { label: "Services", href: "/services" },
       { label: "Pricing", href: "/pricing" },
       { label: "Gallery", href: "/gallery" },
+      { label: "Reviews", href: "/reviews" },
       { label: "About", href: "/about" },
       { label: "Contact", href: "/contact" },
     ] satisfies NavItem[],
-    // Full set — used by the mobile sheet menu and the footer.
+    // Full set — used by the mobile sheet menu and the footer "Explore" list.
+    // Only real, finished pages are linked here.
     all: [
       { label: "Home", href: "/" },
       { label: "Services", href: "/services" },
       { label: "Pricing", href: "/pricing" },
       { label: "Gallery", href: "/gallery" },
+      { label: "Reviews", href: "/reviews" },
       { label: "About", href: "/about" },
-      { label: "Testimonials", href: "/testimonials" },
-      { label: "FAQ", href: "/faq" },
       { label: "Contact", href: "/contact" },
     ] satisfies NavItem[],
   },

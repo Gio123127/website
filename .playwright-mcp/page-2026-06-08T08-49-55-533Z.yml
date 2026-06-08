@@ -1,0 +1,232 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Bliss Nails & Lashes Studio — home" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e5]: Bliss
+      - button "Open menu" [ref=e7]:
+        - img
+  - main [ref=e8]:
+    - generic [ref=e10]:
+      - paragraph [ref=e11]: Services
+      - heading "Nails & lashes, done properly" [level=1] [ref=e12]
+      - paragraph [ref=e13]: Every set is done by Gulshan herself, start to finish, in a calm private studio in Camberley. Here's what you can book — take your time, then message when you're ready.
+      - generic [ref=e14]:
+        - link "Book Now" [ref=e15] [cursor=pointer]:
+          - /url: /booking
+          - text: Book Now
+          - img
+        - link "See the full price list" [ref=e16] [cursor=pointer]:
+          - /url: /pricing
+          - text: See the full price list
+          - img [ref=e17]
+    - region "Service details" [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e21]:
+          - img "Close-up of a freshly finished gel manicure" [ref=e23]
+          - generic [ref=e24]:
+            - paragraph [ref=e25]: Nails
+            - heading "Gel, Acrylic & BIAB" [level=2] [ref=e26]
+            - paragraph [ref=e27]: Long-wearing manicures, shaped and finished exactly how you like them. Whether it's the natural strength of BIAB, a durable acrylic set or a glossy gel overlay, we'll pick what suits your nails and your day-to-day.
+            - paragraph [ref=e28]: Then we take the time to get the shape and colour just right — no rushing, no cutting corners.
+            - paragraph [ref=e29]: What's included
+            - list [ref=e30]:
+              - listitem [ref=e31]:
+                - img [ref=e32]
+                - generic [ref=e34]: A quick chat about shape, length & finish
+              - listitem [ref=e35]:
+                - img [ref=e36]
+                - generic [ref=e38]: Gentle prep and cuticle care
+              - listitem [ref=e39]:
+                - img [ref=e40]
+                - generic [ref=e42]: Your choice of gel, acrylic or BIAB
+              - listitem [ref=e43]:
+                - img [ref=e44]
+                - generic [ref=e46]: Colour, overlay or a natural look
+              - listitem [ref=e47]:
+                - img [ref=e48]
+                - generic [ref=e50]: Aftercare tips so it lasts
+        - generic [ref=e51]:
+          - img "Hand-painted nail art and a classic French set" [ref=e53]
+          - generic [ref=e54]:
+            - paragraph [ref=e55]: Nail art
+            - heading "Nail Art & French" [level=2] [ref=e56]
+            - paragraph [ref=e57]: From a clean classic French to hand-painted detail, this is where we have a little fun. Bring a picture or just an idea and we'll make it yours.
+            - paragraph [ref=e58]: As subtle or as bold as you like — and always sealed to last.
+            - paragraph [ref=e59]: What's included
+            - list [ref=e60]:
+              - listitem [ref=e61]:
+                - img [ref=e62]
+                - generic [ref=e64]: Design chat — bring inspo or ideas
+              - listitem [ref=e65]:
+                - img [ref=e66]
+                - generic [ref=e68]: Classic & coloured French tips
+              - listitem [ref=e69]:
+                - img [ref=e70]
+                - generic [ref=e72]: Hand-painted art and ombré
+              - listitem [ref=e73]:
+                - img [ref=e74]
+                - generic [ref=e76]: Gems, foils and seasonal touches
+              - listitem [ref=e77]:
+                - img [ref=e78]
+                - generic [ref=e80]: A sealed, long-wear finish
+        - generic [ref=e81]:
+          - img "A full, fluttery set of volume lash extensions" [ref=e83]
+          - generic [ref=e84]:
+            - paragraph [ref=e85]: Lashes
+            - heading "Lash Extensions" [level=2] [ref=e86]
+            - paragraph [ref=e87]: Wake up ready. Classic for a natural lift, hybrid for a fuller flutter, or Russian volume for full drama — every set is mapped to suit your eyes.
+            - paragraph [ref=e88]: Applied lash-by-lash so it feels light and looks like you, only better.
+            - paragraph [ref=e89]: What's included
+            - list [ref=e90]:
+              - listitem [ref=e91]:
+                - img [ref=e92]
+                - generic [ref=e94]: Lash mapping to suit your eye shape
+              - listitem [ref=e95]:
+                - img [ref=e96]
+                - generic [ref=e98]: Classic, hybrid or Russian volume
+              - listitem [ref=e99]:
+                - img [ref=e100]
+                - generic [ref=e102]: Length and curl chosen with you
+              - listitem [ref=e103]:
+                - img [ref=e104]
+                - generic [ref=e106]: Lightweight, comfortable application
+              - listitem [ref=e107]:
+                - img [ref=e108]
+                - generic [ref=e110]: Aftercare + infill guidance
+    - region "Easy to book, calm to visit" [ref=e111]:
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - paragraph [ref=e114]: How it works
+          - heading "Easy to book, calm to visit" [level=2] [ref=e115]
+          - paragraph [ref=e116]: No apps and no queues — just a quick message and a time that suits you. Here's how a visit to the studio works.
+        - list [ref=e117]:
+          - listitem [ref=e118]:
+            - generic [ref=e119]:
+              - img [ref=e121]
+              - generic [ref=e123]: "1"
+            - heading "Message to book" [level=3] [ref=e124]
+            - paragraph [ref=e125]: Call or DM with what you'd like and a couple of times that suit. I'll confirm and send you the studio address.
+          - listitem [ref=e126]:
+            - generic [ref=e127]:
+              - img [ref=e129]
+              - generic [ref=e132]: "2"
+            - heading "A quick consult" [level=3] [ref=e133]
+            - paragraph [ref=e134]: When you arrive we'll talk through shape, colour or lash style so it's exactly what you're after.
+          - listitem [ref=e135]:
+            - generic [ref=e136]:
+              - img [ref=e138]
+              - generic [ref=e141]: "3"
+            - heading "Your unhurried visit" [level=3] [ref=e142]
+            - paragraph [ref=e143]: Just you, in a calm private space — no double-booking and no rushing. The time is yours.
+          - listitem [ref=e144]:
+            - generic [ref=e145]:
+              - img [ref=e147]
+              - generic [ref=e152]: "4"
+            - heading "Aftercare & rebook" [level=3] [ref=e153]
+            - paragraph [ref=e154]: I'll show you how to keep your set looking good, and you can book your next visit before you leave.
+        - paragraph [ref=e155]:
+          - text: Not sure what to book?
+          - link "Send a message" [ref=e156] [cursor=pointer]:
+            - /url: /contact
+          - text: and I'll help you choose.
+    - generic [ref=e159]:
+      - paragraph [ref=e160]: Booking
+      - heading "Ready when you are." [level=2] [ref=e161]
+      - paragraph [ref=e162]: Tell me what you'd like and your preferred time — I'll confirm your spot and send the studio address. No online booking system yet — call or message to book.
+      - generic [ref=e163]:
+        - link "Book Now" [ref=e164] [cursor=pointer]:
+          - /url: /booking
+          - text: Book Now
+          - img
+        - link "Call +64 20 4048 1859" [ref=e165] [cursor=pointer]:
+          - /url: tel:+642040481859
+          - img
+          - text: Call +64 20 4048 1859
+      - paragraph [ref=e166]:
+        - generic [ref=e167]:
+          - img [ref=e168]
+          - text: Camberley, Hastings
+        - generic [ref=e171]:
+          - img [ref=e172]
+          - text: By appointment · 7 days · 9am – 9pm
+  - contentinfo [ref=e175]:
+    - generic [ref=e176]:
+      - generic [ref=e177]:
+        - generic [ref=e178]:
+          - generic [ref=e179]:
+            - generic [ref=e180]: Bliss
+            - generic [ref=e181]: Nails & Lashes
+          - paragraph [ref=e182]: Beautiful nails & lashes — never rushed. One artist, start to finish — in a calm, private Hastings studio.
+          - link "4.9★ · 90+ Google reviews" [ref=e183] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Bliss+Nails+and+Lashes+Studio+Hastings
+            - img [ref=e184]
+            - text: 4.9★ · 90+ Google reviews
+        - navigation "Footer navigation" [ref=e186]:
+          - paragraph [ref=e187]: Explore
+          - list [ref=e188]:
+            - listitem [ref=e189]:
+              - link "Home" [ref=e190] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e191]:
+              - link "Services" [ref=e192] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e193]:
+              - link "Pricing" [ref=e194] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e195]:
+              - link "Gallery" [ref=e196] [cursor=pointer]:
+                - /url: /gallery
+            - listitem [ref=e197]:
+              - link "About" [ref=e198] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e199]:
+              - link "Testimonials" [ref=e200] [cursor=pointer]:
+                - /url: /testimonials
+            - listitem [ref=e201]:
+              - link "FAQ" [ref=e202] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=e203]:
+              - link "Contact" [ref=e204] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e205]:
+          - paragraph [ref=e206]: Visit & book
+          - list [ref=e207]:
+            - listitem [ref=e208]:
+              - img [ref=e209]
+              - generic [ref=e212]:
+                - text: Camberley, Hastings
+                - generic [ref=e213]: Private home studio — the exact address is shared on your booking confirmation.
+            - listitem [ref=e214]:
+              - img [ref=e215]
+              - generic [ref=e218]: By appointment · 7 days · 9am – 9pm
+            - listitem [ref=e219]:
+              - img [ref=e220]
+              - link "+64 20 4048 1859" [ref=e222] [cursor=pointer]:
+                - /url: tel:+642040481859
+          - paragraph [ref=e223]: "Areas served: Hastings · Havelock North · Napier · Flaxmere · Hawke's Bay"
+        - generic [ref=e224]:
+          - paragraph [ref=e225]: Connect
+          - generic [ref=e226]:
+            - link "Bliss Nails & Lashes on Facebook" [ref=e227] [cursor=pointer]:
+              - /url: https://www.facebook.com/bliss.nails.and.lashes.studio
+              - img [ref=e228]
+            - link "Bliss Nails & Lashes on Instagram" [ref=e230] [cursor=pointer]:
+              - /url: https://www.instagram.com/bliss_nails_and_lashes_studio
+              - img [ref=e231]
+          - link "Book Now" [ref=e236] [cursor=pointer]:
+            - /url: /booking
+            - text: Book Now
+            - img
+      - generic [ref=e238]:
+        - paragraph [ref=e239]: © 2026 Bliss Nails & Lashes Studio. Camberley, Hastings.
+        - paragraph [ref=e240]: Gel · Acrylic · BIAB · Lash extensions
+  - generic [ref=e242]:
+    - link "Call" [ref=e243] [cursor=pointer]:
+      - /url: tel:+642040481859
+      - img
+      - text: Call
+    - link "Book Now" [ref=e244] [cursor=pointer]:
+      - /url: /booking
+  - button "Open Next.js Dev Tools" [ref=e250] [cursor=pointer]:
+    - img [ref=e251]

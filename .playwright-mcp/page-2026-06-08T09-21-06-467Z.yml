@@ -1,0 +1,401 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "Bliss Nails & Lashes Studio — home" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e6]: Bliss
+        - generic [ref=e7]: Nails & Lashes
+      - button "Open menu" [ref=e9]:
+        - img
+  - main [ref=e10]:
+    - generic [ref=e12]:
+      - paragraph [ref=e13]: Gallery
+      - heading "Real work, straight from the studio" [level=1] [ref=e14]
+      - paragraph [ref=e15]: Every photo here is Gulshan's own work. Filter by what you're after, tap any set for a closer look, then book yours.
+    - generic [ref=e17]:
+      - group "Filter the gallery by category" [ref=e18]:
+        - button "All 45" [pressed] [ref=e19]:
+          - text: All
+          - generic [ref=e20]: "45"
+        - button "Nails 35" [ref=e21]:
+          - text: Nails
+          - generic [ref=e22]: "35"
+        - button "Nail art 9" [ref=e23]:
+          - text: Nail art
+          - generic [ref=e24]: "9"
+        - button "Lashes 1" [ref=e25]:
+          - text: Lashes
+          - generic [ref=e26]: "1"
+      - paragraph [ref=e27]: Showing 45 looks.
+      - generic [ref=e28]:
+        - link "Soft nude manicure Nails Soft nude manicure" [ref=e29] [cursor=pointer]:
+          - /url: /gallery/soft-nude-1
+          - generic [ref=e30]:
+            - img "Soft nude manicure" [ref=e31]
+            - generic [ref=e32]: Nails
+          - heading "Soft nude manicure" [level=3] [ref=e34]
+        - link "Classic lash set Lashes Classic lash set" [ref=e35] [cursor=pointer]:
+          - /url: /gallery/classic-lash-2
+          - generic [ref=e36]:
+            - img "Classic lash set" [ref=e37]
+            - generic [ref=e38]: Lashes
+          - heading "Classic lash set" [level=3] [ref=e40]
+        - link "Cherry red pedicure Nails Cherry red pedicure" [ref=e41] [cursor=pointer]:
+          - /url: /gallery/cherry-red-pedicure-3
+          - generic [ref=e42]:
+            - img "Cherry red pedicure" [ref=e43]
+            - generic [ref=e44]: Nails
+          - heading "Cherry red pedicure" [level=3] [ref=e46]
+        - link "Pretty pink French Nails Pretty pink French" [ref=e47] [cursor=pointer]:
+          - /url: /gallery/pretty-pink-french-4
+          - generic [ref=e48]:
+            - img "Pretty pink French" [ref=e49]
+            - generic [ref=e50]: Nails
+          - heading "Pretty pink French" [level=3] [ref=e52]
+        - link "Delicate French tips Nails Delicate French tips" [ref=e53] [cursor=pointer]:
+          - /url: /gallery/french-tips-5
+          - generic [ref=e54]:
+            - img "Delicate French tips" [ref=e55]
+            - generic [ref=e56]: Nails
+          - heading "Delicate French tips" [level=3] [ref=e58]
+        - link "Warm nude almond Nails Warm nude almond" [ref=e59] [cursor=pointer]:
+          - /url: /gallery/warm-nude-almond-6
+          - generic [ref=e60]:
+            - img "Warm nude almond" [ref=e61]
+            - generic [ref=e62]: Nails
+          - heading "Warm nude almond" [level=3] [ref=e64]
+        - link "Soft pink pedicure Nails Soft pink pedicure" [ref=e65] [cursor=pointer]:
+          - /url: /gallery/soft-pink-pedicure-7
+          - generic [ref=e66]:
+            - img "Soft pink pedicure" [ref=e67]
+            - generic [ref=e68]: Nails
+          - heading "Soft pink pedicure" [level=3] [ref=e70]
+        - link "Lilac gel set Nails Lilac gel set" [ref=e71] [cursor=pointer]:
+          - /url: /gallery/lilac-gel-8
+          - generic [ref=e72]:
+            - img "Lilac gel set" [ref=e73]
+            - generic [ref=e74]: Nails
+          - heading "Lilac gel set" [level=3] [ref=e76]
+        - link "Glossy nude set Nails Glossy nude set" [ref=e77] [cursor=pointer]:
+          - /url: /gallery/glossy-nude-9
+          - generic [ref=e78]:
+            - img "Glossy nude set" [ref=e79]
+            - generic [ref=e80]: Nails
+          - heading "Glossy nude set" [level=3] [ref=e82]
+        - link "Everyday nude set Nails Everyday nude set" [ref=e83] [cursor=pointer]:
+          - /url: /gallery/everyday-nude-10
+          - generic [ref=e84]:
+            - img "Everyday nude set" [ref=e85]
+            - generic [ref=e86]: Nails
+          - heading "Everyday nude set" [level=3] [ref=e88]
+        - link "Mixed brights set Nail art Mixed brights set" [ref=e89] [cursor=pointer]:
+          - /url: /gallery/mixed-brights-11
+          - generic [ref=e90]:
+            - img "Mixed brights set" [ref=e91]
+            - generic [ref=e92]: Nail art
+          - heading "Mixed brights set" [level=3] [ref=e94]
+        - link "Neon almond set Nail art Neon almond set" [ref=e95] [cursor=pointer]:
+          - /url: /gallery/neon-almond-12
+          - generic [ref=e96]:
+            - img "Neon almond set" [ref=e97]
+            - generic [ref=e98]: Nail art
+          - heading "Neon almond set" [level=3] [ref=e100]
+        - link "Milky white set Nails Milky white set" [ref=e101] [cursor=pointer]:
+          - /url: /gallery/milky-white-13
+          - generic [ref=e102]:
+            - img "Milky white set" [ref=e103]
+            - generic [ref=e104]: Nails
+          - heading "Milky white set" [level=3] [ref=e106]
+        - link "Natural nude set Nails Natural nude set" [ref=e107] [cursor=pointer]:
+          - /url: /gallery/natural-nude-14
+          - generic [ref=e108]:
+            - img "Natural nude set" [ref=e109]
+            - generic [ref=e110]: Nails
+          - heading "Natural nude set" [level=3] [ref=e112]
+        - link "Smoky statement set Nail art Smoky statement set" [ref=e113] [cursor=pointer]:
+          - /url: /gallery/smoky-statement-15
+          - generic [ref=e114]:
+            - img "Smoky statement set" [ref=e115]
+            - generic [ref=e116]: Nail art
+          - heading "Smoky statement set" [level=3] [ref=e118]
+        - link "Stiletto art set Nail art Stiletto art set" [ref=e119] [cursor=pointer]:
+          - /url: /gallery/stiletto-art-16
+          - generic [ref=e120]:
+            - img "Stiletto art set" [ref=e121]
+            - generic [ref=e122]: Nail art
+          - heading "Stiletto art set" [level=3] [ref=e124]
+        - link "Clean nude set Nails Clean nude set" [ref=e125] [cursor=pointer]:
+          - /url: /gallery/clean-nude-17
+          - generic [ref=e126]:
+            - img "Clean nude set" [ref=e127]
+            - generic [ref=e128]: Nails
+          - heading "Clean nude set" [level=3] [ref=e130]
+        - link "Nude almond set Nails Nude almond set" [ref=e131] [cursor=pointer]:
+          - /url: /gallery/nude-almond-18
+          - generic [ref=e132]:
+            - img "Nude almond set" [ref=e133]
+            - generic [ref=e134]: Nails
+          - heading "Nude almond set" [level=3] [ref=e136]
+        - link "Classic French set Nails Classic French set" [ref=e137] [cursor=pointer]:
+          - /url: /gallery/classic-french-19
+          - generic [ref=e138]:
+            - img "Classic French set" [ref=e139]
+            - generic [ref=e140]: Nails
+          - heading "Classic French set" [level=3] [ref=e142]
+        - link "Soft pink set Nails Soft pink set" [ref=e143] [cursor=pointer]:
+          - /url: /gallery/soft-pink-20
+          - generic [ref=e144]:
+            - img "Soft pink set" [ref=e145]
+            - generic [ref=e146]: Nails
+          - heading "Soft pink set" [level=3] [ref=e148]
+        - link "French ombré set Nails French ombré set" [ref=e149] [cursor=pointer]:
+          - /url: /gallery/french-ombre-21
+          - generic [ref=e150]:
+            - img "French ombré set" [ref=e151]
+            - generic [ref=e152]: Nails
+          - heading "French ombré set" [level=3] [ref=e154]
+        - link "Blush gel set Nails Blush gel set" [ref=e155] [cursor=pointer]:
+          - /url: /gallery/blush-gel-22
+          - generic [ref=e156]:
+            - img "Blush gel set" [ref=e157]
+            - generic [ref=e158]: Nails
+          - heading "Blush gel set" [level=3] [ref=e160]
+        - link "Bubblegum set Nails Bubblegum set" [ref=e161] [cursor=pointer]:
+          - /url: /gallery/bubblegum-23
+          - generic [ref=e162]:
+            - img "Bubblegum set" [ref=e163]
+            - generic [ref=e164]: Nails
+          - heading "Bubblegum set" [level=3] [ref=e166]
+        - link "Rosy nude set Nails Rosy nude set" [ref=e167] [cursor=pointer]:
+          - /url: /gallery/rosy-nude-24
+          - generic [ref=e168]:
+            - img "Rosy nude set" [ref=e169]
+            - generic [ref=e170]: Nails
+          - heading "Rosy nude set" [level=3] [ref=e172]
+        - link "Pink French set Nails Pink French set" [ref=e173] [cursor=pointer]:
+          - /url: /gallery/pink-french-25
+          - generic [ref=e174]:
+            - img "Pink French set" [ref=e175]
+            - generic [ref=e176]: Nails
+          - heading "Pink French set" [level=3] [ref=e178]
+        - link "Warm nude set Nails Warm nude set" [ref=e179] [cursor=pointer]:
+          - /url: /gallery/warm-nude-26
+          - generic [ref=e180]:
+            - img "Warm nude set" [ref=e181]
+            - generic [ref=e182]: Nails
+          - heading "Warm nude set" [level=3] [ref=e184]
+        - link "Pink & white set Nails Pink & white set" [ref=e185] [cursor=pointer]:
+          - /url: /gallery/pink-white-27
+          - generic [ref=e186]:
+            - img "Pink & white set" [ref=e187]
+            - generic [ref=e188]: Nails
+          - heading "Pink & white set" [level=3] [ref=e190]
+        - link "Baby pink set Nails Baby pink set" [ref=e191] [cursor=pointer]:
+          - /url: /gallery/baby-pink-28
+          - generic [ref=e192]:
+            - img "Baby pink set" [ref=e193]
+            - generic [ref=e194]: Nails
+          - heading "Baby pink set" [level=3] [ref=e196]
+        - link "Nude almond set Nails Nude almond set" [ref=e197] [cursor=pointer]:
+          - /url: /gallery/nude-almond-29
+          - generic [ref=e198]:
+            - img "Nude almond set" [ref=e199]
+            - generic [ref=e200]: Nails
+          - heading "Nude almond set" [level=3] [ref=e202]
+        - link "Hot pink set Nails Hot pink set" [ref=e203] [cursor=pointer]:
+          - /url: /gallery/hot-pink-30
+          - generic [ref=e204]:
+            - img "Hot pink set" [ref=e205]
+            - generic [ref=e206]: Nails
+          - heading "Hot pink set" [level=3] [ref=e208]
+        - link "Purple gel set Nails Purple gel set" [ref=e209] [cursor=pointer]:
+          - /url: /gallery/purple-gel-31
+          - generic [ref=e210]:
+            - img "Purple gel set" [ref=e211]
+            - generic [ref=e212]: Nails
+          - heading "Purple gel set" [level=3] [ref=e214]
+        - link "White design set Nail art White design set" [ref=e215] [cursor=pointer]:
+          - /url: /gallery/white-design-32
+          - generic [ref=e216]:
+            - img "White design set" [ref=e217]
+            - generic [ref=e218]: Nail art
+          - heading "White design set" [level=3] [ref=e220]
+        - link "Soft milky set Nails Soft milky set" [ref=e221] [cursor=pointer]:
+          - /url: /gallery/soft-milky-33
+          - generic [ref=e222]:
+            - img "Soft milky set" [ref=e223]
+            - generic [ref=e224]: Nails
+          - heading "Soft milky set" [level=3] [ref=e226]
+        - link "Natural set Nails Natural set" [ref=e227] [cursor=pointer]:
+          - /url: /gallery/natural-set-34
+          - generic [ref=e228]:
+            - img "Natural set" [ref=e229]
+            - generic [ref=e230]: Nails
+          - heading "Natural set" [level=3] [ref=e232]
+        - link "Multicolour glam set Nail art Multicolour glam set" [ref=e233] [cursor=pointer]:
+          - /url: /gallery/multicolour-glam-35
+          - generic [ref=e234]:
+            - img "Multicolour glam set" [ref=e235]
+            - generic [ref=e236]: Nail art
+          - heading "Multicolour glam set" [level=3] [ref=e238]
+        - link "Plum gel set Nails Plum gel set" [ref=e239] [cursor=pointer]:
+          - /url: /gallery/plum-gel-36
+          - generic [ref=e240]:
+            - img "Plum gel set" [ref=e241]
+            - generic [ref=e242]: Nails
+          - heading "Plum gel set" [level=3] [ref=e244]
+        - link "Polished nude set Nails Polished nude set" [ref=e245] [cursor=pointer]:
+          - /url: /gallery/polished-nude-37
+          - generic [ref=e246]:
+            - img "Polished nude set" [ref=e247]
+            - generic [ref=e248]: Nails
+          - heading "Polished nude set" [level=3] [ref=e250]
+        - link "Sunny yellow set Nail art Sunny yellow set" [ref=e251] [cursor=pointer]:
+          - /url: /gallery/sunny-yellow-38
+          - generic [ref=e252]:
+            - img "Sunny yellow set" [ref=e253]
+            - generic [ref=e254]: Nail art
+          - heading "Sunny yellow set" [level=3] [ref=e256]
+        - link "Soft nude set Nails Soft nude set" [ref=e257] [cursor=pointer]:
+          - /url: /gallery/soft-nude-39
+          - generic [ref=e258]:
+            - img "Soft nude set" [ref=e259]
+            - generic [ref=e260]: Nails
+          - heading "Soft nude set" [level=3] [ref=e262]
+        - link "Yellow floral set Nail art Yellow floral set" [ref=e263] [cursor=pointer]:
+          - /url: /gallery/yellow-floral-40
+          - generic [ref=e264]:
+            - img "Yellow floral set" [ref=e265]
+            - generic [ref=e266]: Nail art
+          - heading "Yellow floral set" [level=3] [ref=e268]
+        - link "Pink gel set Nails Pink gel set" [ref=e269] [cursor=pointer]:
+          - /url: /gallery/pink-gel-41
+          - generic [ref=e270]:
+            - img "Pink gel set" [ref=e271]
+            - generic [ref=e272]: Nails
+          - heading "Pink gel set" [level=3] [ref=e274]
+        - link "Crisp white set Nails Crisp white set" [ref=e275] [cursor=pointer]:
+          - /url: /gallery/crisp-white-42
+          - generic [ref=e276]:
+            - img "Crisp white set" [ref=e277]
+            - generic [ref=e278]: Nails
+          - heading "Crisp white set" [level=3] [ref=e280]
+        - link "Sunset tips set Nail art Sunset tips set" [ref=e281] [cursor=pointer]:
+          - /url: /gallery/sunset-tips-43
+          - generic [ref=e282]:
+            - img "Sunset tips set" [ref=e283]
+            - generic [ref=e284]: Nail art
+          - heading "Sunset tips set" [level=3] [ref=e286]
+        - link "Natural nude set Nails Natural nude set" [ref=e287] [cursor=pointer]:
+          - /url: /gallery/natural-nude-44
+          - generic [ref=e288]:
+            - img "Natural nude set" [ref=e289]
+            - generic [ref=e290]: Nails
+          - heading "Natural nude set" [level=3] [ref=e292]
+        - link "Glossy set & polish Nails Glossy set & polish" [ref=e293] [cursor=pointer]:
+          - /url: /gallery/glossy-set-45
+          - generic [ref=e294]:
+            - img "Glossy set & polish" [ref=e295]
+            - generic [ref=e296]: Nails
+          - heading "Glossy set & polish" [level=3] [ref=e298]
+    - generic [ref=e301]:
+      - paragraph [ref=e302]: Booking
+      - heading "Ready when you are." [level=2] [ref=e303]
+      - paragraph [ref=e304]: Tell me what you'd like and your preferred time — I'll confirm your spot and send the studio address. No online booking system yet — call or message to book.
+      - generic [ref=e305]:
+        - link "Book Now" [ref=e306] [cursor=pointer]:
+          - /url: /booking
+          - text: Book Now
+          - img
+        - link "Call +64 20 4048 1859" [ref=e307] [cursor=pointer]:
+          - /url: tel:+642040481859
+          - img
+          - text: Call +64 20 4048 1859
+      - paragraph [ref=e308]:
+        - generic [ref=e309]:
+          - img [ref=e310]
+          - text: Camberley, Hastings
+        - generic [ref=e313]:
+          - img [ref=e314]
+          - text: By appointment · 7 days · 9am – 9pm
+  - contentinfo [ref=e317]:
+    - generic [ref=e318]:
+      - generic [ref=e319]:
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e322]: Bliss
+            - generic [ref=e323]: Nails & Lashes
+          - paragraph [ref=e324]: Beautiful nails & lashes — never rushed. One artist, start to finish — in a calm, private Hastings studio.
+          - link "4.9★ · 90+ Google reviews" [ref=e325] [cursor=pointer]:
+            - /url: https://www.google.com/maps/search/?api=1&query=Bliss+Nails+and+Lashes+Studio+Hastings
+            - img [ref=e326]
+            - text: 4.9★ · 90+ Google reviews
+        - navigation "Footer navigation" [ref=e328]:
+          - paragraph [ref=e329]: Explore
+          - list [ref=e330]:
+            - listitem [ref=e331]:
+              - link "Home" [ref=e332] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e333]:
+              - link "Services" [ref=e334] [cursor=pointer]:
+                - /url: /services
+            - listitem [ref=e335]:
+              - link "Pricing" [ref=e336] [cursor=pointer]:
+                - /url: /pricing
+            - listitem [ref=e337]:
+              - link "Gallery" [ref=e338] [cursor=pointer]:
+                - /url: /gallery
+            - listitem [ref=e339]:
+              - link "About" [ref=e340] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=e341]:
+              - link "Testimonials" [ref=e342] [cursor=pointer]:
+                - /url: /testimonials
+            - listitem [ref=e343]:
+              - link "FAQ" [ref=e344] [cursor=pointer]:
+                - /url: /faq
+            - listitem [ref=e345]:
+              - link "Contact" [ref=e346] [cursor=pointer]:
+                - /url: /contact
+        - generic [ref=e347]:
+          - paragraph [ref=e348]: Visit & book
+          - list [ref=e349]:
+            - listitem [ref=e350]:
+              - img [ref=e351]
+              - generic [ref=e354]:
+                - text: Camberley, Hastings
+                - generic [ref=e355]: Private home studio — the exact address is shared on your booking confirmation.
+            - listitem [ref=e356]:
+              - img [ref=e357]
+              - generic [ref=e360]: By appointment · 7 days · 9am – 9pm
+            - listitem [ref=e361]:
+              - img [ref=e362]
+              - link "+64 20 4048 1859" [ref=e364] [cursor=pointer]:
+                - /url: tel:+642040481859
+          - paragraph [ref=e365]: "Areas served: Hastings · Havelock North · Napier · Flaxmere · Hawke's Bay"
+        - generic [ref=e366]:
+          - paragraph [ref=e367]: Connect
+          - generic [ref=e368]:
+            - link "Bliss Nails & Lashes on Facebook" [ref=e369] [cursor=pointer]:
+              - /url: https://www.facebook.com/bliss.nails.and.lashes.studio
+              - img [ref=e370]
+            - link "Bliss Nails & Lashes on Instagram" [ref=e372] [cursor=pointer]:
+              - /url: https://www.instagram.com/bliss_nails_and_lashes_studio
+              - img [ref=e373]
+          - link "Book Now" [ref=e378] [cursor=pointer]:
+            - /url: /booking
+            - text: Book Now
+            - img
+      - generic [ref=e380]:
+        - paragraph [ref=e381]: © 2026 Bliss Nails & Lashes Studio. Camberley, Hastings.
+        - paragraph [ref=e382]: Gel · Acrylic · BIAB · Lash extensions
+  - generic [ref=e384]:
+    - link "Call" [ref=e385] [cursor=pointer]:
+      - /url: tel:+642040481859
+      - img
+      - text: Call
+    - link "Book Now" [ref=e386] [cursor=pointer]:
+      - /url: /booking
+  - alert [ref=e387]
