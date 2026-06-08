@@ -98,7 +98,7 @@ export default function PricingPage() {
             <div className="relative mx-auto aspect-[5/6] w-full max-w-sm overflow-hidden rounded-3xl border border-border shadow-sm">
               <Image
                 src="/photos/pricing.jpg"
-                alt="A glossy nude and gold-glitter gel set by Bliss"
+                alt="A glossy neutral and gold-glitter gel set by Bliss"
                 fill
                 sizes="(max-width: 1024px) 90vw, 40vw"
                 className="object-cover"
